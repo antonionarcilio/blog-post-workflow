@@ -35,7 +35,7 @@
           - name: Checkout
             uses: actions/checkout@v4
           - name: Pull in dev.to posts
-            uses: gautamkrishnar/blog-post-workflow@v1
+            uses: antonionarcilio/blog-post-workflow@v1
             with:
               feed_list: "https://dev.to/feed/gautamkrishnar,https://www.gautamkrishnar.com/feed/"
     ```
